@@ -5,7 +5,7 @@
 - MySQL
 - Docker
 - DockerHub
-- Kubernetes
+- Kubernetes - (kubeadm)
 - Helm
 
 ## Cloud:
