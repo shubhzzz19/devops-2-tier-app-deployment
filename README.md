@@ -7,6 +7,7 @@
 - DockerHub
 - Kubernetes - (kubeadm)
 - Helm
+- EKS
 
 ## Cloud:
 - AWS
