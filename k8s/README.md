@@ -151,7 +151,7 @@ git clone https://github.com/shubhzzz19/devops-2-tier-app-deployment.git
 ```
 - Move to k8s directory
 ```bash
-cd two-tier-flask-app/k8s
+cd devops-2-tier-app-deployment
 ```
 - Now, execute below commands one by one
 ```bash
