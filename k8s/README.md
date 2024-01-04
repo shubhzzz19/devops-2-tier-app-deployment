@@ -155,20 +155,23 @@ cd devops-2-tier-app-deployment/k8s
 ```
 - Now, execute below commands one by one
 ```bash
-kubectl apply -f two-tier-deployment.yml
+kubectl apply -f two-tier-app-pod.yml
 ```
 ```bash
-kubectl apply -f two-tier-deployment-svc.yml
+kubectl apply -f two-tier-app-deployment.yml
+```
+```bash
+kubectl apply -f two-tier-app-svc.yml
 ```
 ```bash
 kubectl apply -f mysql-deployment.yml
 ```
 ```bash
-kubectl apply -f mysql-deployment-svc.yml
+kubectl apply -f mysql-svc.yml
 ```
 ```bash
-kubectl apply -f persistent-volume.yml
+kubectl apply -f mysql-pv.yml
 ```
 ```bash
-kubectl apply -f persistent-volume-claim.yml
+kubectl apply -f mysql-pvc.yml
 ```
