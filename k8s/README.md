@@ -155,10 +155,10 @@ cd devops-2-tier-app-deployment/k8s
 ```
 - Now, execute below commands one by one
 ```bash
-kubectl apply -f twotier-deployment.yml
+kubectl apply -f two-tier-deployment.yml
 ```
 ```bash
-kubectl apply -f twotier-deployment-svc.yml
+kubectl apply -f two-tier-deployment-svc.yml
 ```
 ```bash
 kubectl apply -f mysql-deployment.yml
