@@ -175,3 +175,17 @@ kubectl apply -f mysql-pv.yml
 ```bash
 kubectl apply -f mysql-pvc.yml
 ```
+
+- Now take mysql cluster IP and replace the Host Value for MySQL in two-tier-app-deployment.yml file
+
+
+## Worker Node
+
+- Install helm
+```bash
+curl https://baltocdn.com/helm/signing.asc | gpg --dearmor | sudo tee /usr/share/keyrings/helm.gpg > /dev/null
+sudo apt-get install apt-transport-https --yes
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/helm.gpg] https://baltocdn.com/helm/stable/debian/ all main" | sudo tee /etc/apt/sources.list.d/helm-stable-debian.list
+sudo apt-get update
+sudo apt-get install helm
+```
