@@ -151,7 +151,7 @@ git clone https://github.com/shubhzzz19/devops-2-tier-app-deployment.git
 ```
 - Move to k8s directory
 ```bash
-cd devops-2-tier-app-deployment
+cd devops-2-tier-app-deployment/k8s
 ```
 - Now, execute below commands one by one
 ```bash
