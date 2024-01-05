@@ -8,7 +8,7 @@ spec:
     image: shubhzzz19/flaskapp:latest
     env:
       - name: MYSQL_HOST
-        value: <mysql-cluster-ip>          # this is your mysql's service clusture IP, Make sure to change it with yours
+        value: "$(kubectl get service mysql -o=jsonpath='{.spec.clusterIP}')"          # this is your mysql's service clusture IP, Make sure to change it with yours
       - name: MYSQL_PASSWORD
         value: "admin"
       - name: MYSQL_USER
