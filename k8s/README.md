@@ -179,7 +179,7 @@ kubectl apply -f mysql-pvc.yml
 - Now take mysql cluster IP and replace the Host Value for MySQL in two-tier-app-deployment.yml file
 
 
-## Worker Node
+## Master Node
 
 - Install helm
 ```bash
