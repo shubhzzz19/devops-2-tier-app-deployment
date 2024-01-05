@@ -8,6 +8,7 @@
 - Kubernetes - (kubeadm)
 - Helm
 - EKS
+- Jenkins
 
 ## Cloud:
 - AWS
