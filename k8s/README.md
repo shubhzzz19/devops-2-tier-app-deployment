@@ -155,15 +155,6 @@ cd devops-2-tier-app-deployment/k8s
 ```
 - Now, execute below commands one by one
 ```bash
-kubectl apply -f two-tier-app-pod.yml
-```
-```bash
-kubectl apply -f two-tier-app-deployment.yml
-```
-```bash
-kubectl apply -f two-tier-app-svc.yml
-```
-```bash
 kubectl apply -f mysql-deployment.yml
 ```
 ```bash
@@ -174,6 +165,15 @@ kubectl apply -f mysql-pv.yml
 ```
 ```bash
 kubectl apply -f mysql-pvc.yml
+```
+```bash
+kubectl apply -f two-tier-app-pod.yml
+```
+```bash
+kubectl apply -f two-tier-app-deployment.yml
+```
+```bash
+kubectl apply -f two-tier-app-svc.yml
 ```
 
 - Now take mysql cluster IP and replace the Host Value for MySQL in two-tier-app-deployment.yml file
